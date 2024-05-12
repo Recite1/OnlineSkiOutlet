@@ -1,0 +1,33 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4px;
+    padding: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.item-container:hover{
+    transform:scale(1.1);
+}
+
+.product-img {
+    width: 150px;
+    height: 100px;
+}
+
+.product-sale{
+    color: red;
+}
+
+.product-price{
+    font-weight: bold; 
+}
+
+.product-name {
+    font-family: 'Courier New', Courier, monospace;
+}

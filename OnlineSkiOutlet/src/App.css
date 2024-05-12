@@ -1,0 +1,10 @@
+.item-collections-container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.updatedTime {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
